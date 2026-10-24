@@ -1,0 +1,18 @@
+.categories-bar {
+  display: flex;
+  justify-content: center;
+  padding: 12px 16px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  overflow-x: auto;
+}
+
+.categories-group {
+  box-shadow: none;
+}
+
+.category-toggle {
+  text-transform: none;
+  padding: 6px 18px;
+  font-weight: 500;
+}

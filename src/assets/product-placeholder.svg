@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#e8eaf6" />
+  <path d="M150 115h100l-12 95h-76z" fill="#3f51b5" />
+  <path d="M172 115a28 28 0 0 1 56 0" fill="none" stroke="#3f51b5" stroke-width="9" stroke-linecap="round" />
+  <circle cx="172" cy="228" r="7" fill="#3f51b5" />
+  <circle cx="228" cy="228" r="7" fill="#3f51b5" />
+  <text x="200" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#3f51b5">upGrad Eshop</text>
+</svg>
