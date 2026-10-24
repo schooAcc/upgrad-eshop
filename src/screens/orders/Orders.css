@@ -1,0 +1,60 @@
+.order-page {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.order-stepper {
+  background-color: transparent;
+  margin-bottom: 24px;
+  padding: 8px 0;
+}
+
+.order-step-content {
+  min-height: 200px;
+}
+
+.order-loading {
+  color: #616161;
+}
+
+.order-address-step {
+  width: 100%;
+}
+
+.address-toggle-button {
+  margin-top: 8px;
+}
+
+.order-review {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.order-review-address {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 16px;
+  background-color: #ffffff;
+}
+
+.order-review-heading {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.order-confirmed {
+  color: #2e7d32;
+  text-align: center;
+}
+
+.order-error {
+  margin-top: 16px;
+}
+
+.order-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
