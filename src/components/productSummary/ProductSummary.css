@@ -1,0 +1,26 @@
+.product-summary {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 16px;
+  background-color: #ffffff;
+}
+
+.product-summary-name {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.product-summary-price {
+  color: #3f51b5;
+  margin-bottom: 8px;
+}
+
+.product-summary-meta {
+  color: #616161;
+  margin-bottom: 4px;
+}
+
+.product-summary-description {
+  color: #424242;
+  margin-top: 8px;
+}

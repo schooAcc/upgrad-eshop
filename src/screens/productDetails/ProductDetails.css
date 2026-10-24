@@ -1,0 +1,43 @@
+.product-details-page {
+  width: 100%;
+}
+
+.page-title {
+  margin-bottom: 20px;
+}
+
+.details-error {
+  margin-bottom: 16px;
+}
+
+.product-details-layout {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.product-details-image {
+  flex: 1 1 280px;
+  max-width: 400px;
+}
+
+.product-details-img {
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  display: block;
+}
+
+.product-details-info {
+  flex: 2 1 360px;
+}
+
+.product-details-quantity {
+  margin-top: 20px;
+}
+
+.place-order-button {
+  display: block;
+  margin-top: 20px;
+}
