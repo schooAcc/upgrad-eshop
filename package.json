@@ -8,7 +8,7 @@
     "@material-ui/lab": "^4.0.0-alpha.61",
     "@testing-library/dom": "^10.4.2",
     "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^16.3.3",
+    "@testing-library/react": "12.1.5",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.9",
     "react": "^17.0.2",
