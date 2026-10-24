@@ -1,0 +1,29 @@
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 32px;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 440px;
+}
+
+.auth-title {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.auth-error {
+  margin: 12px 0 0;
+}
+
+.auth-submit {
+  margin-top: 16px;
+}
+
+.auth-link {
+  text-align: center;
+  margin-top: 16px;
+}
