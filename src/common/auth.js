@@ -49,6 +49,12 @@ export const readLoginResponse = (response) => {
       role = claims.authorities.map((authority) => (authority && authority.authority) || authority);
     }
   }
+  if (!role && claims) {
+    const { sub, ...rest } = claims;
+    if (JSON.stringify(rest).toUpperCase().includes('ADMIN')) {
+      role = 'ADMIN';
+    }
+  }
   return {
     token,
     role: normalizeRole(role),

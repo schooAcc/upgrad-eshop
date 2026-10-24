@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Redirect, Route, Switch, useLocation } from 'react-router-dom';
+import { Redirect, Route, Switch } from 'react-router-dom';
 import AuthContext from './common/AuthContext';
 import Navbar from './common/Navbar/Navbar';
 import Categories from './common/Categories/Categories';
@@ -22,7 +22,6 @@ const loadUser = () => {
 
 function App() {
   const [user, setUser] = useState(loadUser);
-  const location = useLocation();
 
   const login = (value) => {
     localStorage.setItem('user', JSON.stringify(value));
