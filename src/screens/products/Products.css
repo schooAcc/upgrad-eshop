@@ -1,0 +1,25 @@
+.products-page {
+  width: 100%;
+}
+
+.products-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.products-sort {
+  min-width: 220px;
+  background-color: #ffffff;
+}
+
+.products-error {
+  margin-bottom: 16px;
+}
+
+.products-empty {
+  text-align: center;
+  color: #616161;
+  margin-top: 48px;
+}
