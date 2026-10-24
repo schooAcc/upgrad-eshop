@@ -1,0 +1,11 @@
+.product-page {
+  width: 100%;
+}
+
+.product-page-error {
+  margin-bottom: 16px;
+}
+
+.product-page-loading {
+  color: #616161;
+}
